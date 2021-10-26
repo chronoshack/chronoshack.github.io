@@ -50,8 +50,7 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="schedule.html">Schedule</a></li>
-                                       
+                                        
                                     </ul>
                                 </nav>
                             </div>
@@ -72,71 +71,34 @@
         <div class="slider_text">
             <div class="container">
                 <div class="position_relv">
-                    <h1 class="opcity_text d-none d-lg-block">Chronos Hack </h1>
-                    <h3>Note:The registrants are free to choose the theme of their choice, however, they are available only on the basis of first come, first serve.</h3>
                     <div class="container-damn">
- 
-                        <div class="card-damn">
-                          <div class="img-cover"><img style="object-fit: contain;" src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif"></div>
-                          
-                          <div class="desc">
-                            <h1>Register as a Team</h1>
-                            <strong>
-                                <p style="color:black;">A team can have a minimum of 3 people and a maximum of 4 people. 
-                                    It is possible to have people from varied branches and years. 
-                                    In the end, every team will have a total of 4 registrants. In case of a team of 3, individual registrants stand a chance to join the team.
-                                    </p>
-                            </strong>
-                            
-                                <a href ="team.html">Apply Now<svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            
-                      <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
-                      </svg></a>
-                          </div>
-                        </div>
-                        <div class="card-damn">
-                          <div class="img-cover"><img style="object-fit: contain;" src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif"></div>
-                          
-                          <div class="desc">
-                            <h1>Regsiter as an Individual</h1>
-                            <strong>
-                                <p style="color:black;">Individual registrants will be allowed to form a group with other individual registrants on Day 1 of bootcamp. 
-                                    However, if anyone doesn’t have a team, they will be placed in teams by the organizing committee based on their response in their application form.
-                                    
-                                    </p>
-                            </strong>
-                            
-                                <a href ="individual.html">Apply Now<svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            
-                      <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
-                      </svg></a>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="countDOwn_area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="single_date">
-                            <i class="ti-location-pin"></i>
-                            <span>VBIT, Hyderabad</span>
+                        <div class="card-form">
+                            <div class="container" style="margin-bottom: 100px;">
+                                <img style="margin-left: auto;margin-right: auto;display: block;width: 100%;" src="img/banner/Chronos Hack Logo 2.png" alt="">
+                                <form method="POST" autocomplete="off" name="google-sheet" target="_blank">
+                                    <div class="col-sm-12">
+                                        <h4 style="text-align: center; font-size: 30px;">Judging Dashboard</h4>
+                                        <!-- Team Name -->
+                                        <div class="col form-group">
+                                            <label>Email</label>
+                                            <input type="email" placeholder="" class="form-control" name="Name" required id="email" >
+                                        </div>
+                                        <!-- Team Title -->
+                                        <div class="col form-group">
+                                            <label>Password</label>
+                                            <input type="password" placeholder="" class="form-control" name="Roll" id="password" required>
+                                        </div>
+                                        <!-- Category -->
+                                        
+                                        <!-- Project Description -->
+                                        <div class="col-sm-6 align-items-center" style="margin-left: auto; margin-right: auto;">
+                                            <button type="submit" class="btn btn-lg btn-block btn-success" onclick="validate()" >Login</button>
+                                        </div>                   
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="single_date">
-                            <i class="ti-alarm-clock"></i>
-                            <span>27-28 October 2021</span>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-5 col-md-12 col-lg-5">
-                        <span id="clock"></span>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -144,10 +106,6 @@
     
     
     <!-- footer_end -->
-
-
-
-
 
 
     <!-- JS here -->
@@ -179,6 +137,10 @@
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </body>
 
